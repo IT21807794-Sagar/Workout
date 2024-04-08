@@ -39,10 +39,15 @@ const Navigation = () => {
             <p className='text-x1'>{item.title}</p>
           </div>
         ))}
-        <div className='py-5'>
+        <div className='py-10'>
           <Button
-            sx={{ width: "80%", borderRadius: "29px", py: "10px", fontSize: "14px", bgcolor: '#1e88e5' }} // Adjusted button size and font size
-            variant='container'
+            sx={{
+             width: "100%",
+             borderRadius: "29px",
+             py: "15px", 
+             bgcolor: '#1e88e5',
+             }} // Adjusted button size and font size
+            variant='contained'
           >
             WORKOUT
           </Button>
