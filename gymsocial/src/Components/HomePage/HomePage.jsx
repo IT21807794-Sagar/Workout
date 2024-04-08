@@ -1,6 +1,7 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
 import Navigation from '../Navigation/Navigation';
+import HomeSection from '../HomeSection/HomeSection';
 
 const HomePage = () => {
   return (
@@ -10,7 +11,9 @@ const HomePage = () => {
           <Navigation />
         </Grid>
         <Grid item xs={12} lg={6}>
-          <p className='text-center'>middle part</p>
+          <p className='text-center'>
+            <HomeSection/>
+          </p>
         </Grid>
         <Grid item xs={12} lg={2.5}>
           <p className='text-center'>right part</p>
