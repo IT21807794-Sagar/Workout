@@ -65,6 +65,7 @@ const HomeSection = () => {
             style={{ marginRight: '1rem' }}
           />
           <div className="w-full">
+            <p>
             <form onSubmit={formik.handleSubmit}>
               <div>
                 <input
@@ -125,8 +126,12 @@ const HomeSection = () => {
                 </div>
               </div>
             </form>
+            </p>
           </div>
         </div>
+      </section>
+      <section className={'pb-10'}>
+
       </section>
       {/* Dialog for WorkoutUpdate */}
       <Dialog open={open} onClose={handleCloseDialog}>
